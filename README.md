@@ -1,6 +1,6 @@
 <center><img style='width:600px'src='./ReadMe-Assets/cover.png'></center>
 
-[![Support Server](https://img.shields.io/discord/934229274003664906.svg?color=7289da&label=TestingMeme&logo=discord&style=flat-square)](https://discord.gg/fkg9pbP42V)
+[![Support Server](https://img.shields.io/discord/934229274003664906.svg?color=7289da&label=Horizon-Discord&logo=discord&style=flat-square)](https://discord.gg/fkg9pbP42V)
 
 
 <center><h1>Discord Friend Logger</center>
