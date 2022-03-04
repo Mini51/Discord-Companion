@@ -1,14 +1,16 @@
-// ! THis file is the main file for Friend-Logger project
-/* 
 
-Made By: Mini
-Github-page: https://github.com/Mini51/Discord-FriendLog
+/* Info:  
+
+! This tool logs all your friends to a file for later use. 
+! Made By: Mini51
+! Github-page: https://github.com/Mini51/Discord-FriendLog
 
 */ 
 
+
+
+
 //Require modules and other tools
-
-
 const axios = require('axios')
 const fs = require('fs');
 const prompts = require('prompts');
@@ -17,7 +19,7 @@ const url = 'https://discord.com/api/v9/users/@me/relationships';
 
 
 
-
+//Prompt the user for token
 (async () => {
   const response = await prompts({
     type: 'password',
@@ -25,6 +27,8 @@ const url = 'https://discord.com/api/v9/users/@me/relationships';
     message: 'Please input your token',
     validate: value => value ==+ null ? 'you must input your token to continue' : true
   });
+
+  // Define the options for the API call
   const options = {
     method: 'GET',
     headers: { 'Authorization': response.value },
@@ -32,10 +36,13 @@ const url = 'https://discord.com/api/v9/users/@me/relationships';
   };
 
 
-getUser()
+// calling the function to get our friends list 
+getFriends()
 
 
-  async function getUser() {
+
+// Function to get the users  friends
+  async function getFriends() {
     try {
       const response = await axios(options);
 
