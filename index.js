@@ -46,11 +46,7 @@ getFriends()
     try {
       const response = await axios(options);
 
-      console.log(response.length)
-
-
       let result = response.data.map(({ user }) => user.username + '#' + user.discriminator);
-      console.log(typeof result);
     
       result = JSON.stringify(result);
     
