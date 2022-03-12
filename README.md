@@ -6,7 +6,7 @@
 
 <center><h1>About</center>
 
-### This tool will log all your friends on discord to a single file. So you can re-add your friends on another account. If you enjoy the tool feel free to star it so more people can find it.
+### This tool will log all your friends on discord to a single file. So you can re-add your friends on another account.
 
 <br >
 
@@ -20,7 +20,7 @@ Your friends discord tags will be logged to `./output.json`
 
 <hr>
 
-<h3>If you enjoy the tool feel free to star the S so more people can find it.</h3>
+<h3>If you enjoy the tool feel free to star the so that more people can find it.</h3>
 
 <br>
 
