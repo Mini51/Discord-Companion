@@ -1,5 +1,5 @@
 
-![Logo](./ReadMe-Assets/cover.png)
+![Logo](./Assets/cover.png)
 
 [![Support Server](https://img.shields.io/discord/934229274003664906.svg?color=7289da&label=Horizon-Discord&logo=discord&style=flat-square)](https://discord.gg/fkg9pbP42V)
 
@@ -16,7 +16,7 @@
 3. Run the command  `NPM i` 
 4. Run the command `node index.js`
 
-Your friends discord tags will be logged to `./output.json`
+Your friends discord tags will be logged to `./LOG/output.json`
 
 <hr>
 
