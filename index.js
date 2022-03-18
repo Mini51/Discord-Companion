@@ -1,5 +1,4 @@
-
-/* Info:  
+/*   
 
 ! This tool logs all your friends to a file for later use. 
 ! Made By: Mini51
@@ -14,7 +13,7 @@
 const axios = require('axios')
 const fs = require('fs');
 const prompts = require('prompts');
-require('./style.js')();
+require('./Functions/style')();
 const url = 'https://discord.com/api/v9/users/@me/relationships';
 
 
@@ -50,7 +49,7 @@ getFriends()
     
       result = JSON.stringify(result);
     
-      fs.writeFile('output.json', result, () => { 
+      fs.writeFile('./OUT/output.json', result, () => { 
         console.logPass('Logged all your friends to ./output.json');
       })
 
