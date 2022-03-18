@@ -1,0 +1,1 @@
+This is the path where all your friends will be logged to
