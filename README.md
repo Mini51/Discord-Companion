@@ -4,11 +4,11 @@
 [![Support Server](https://img.shields.io/discord/934229274003664906.svg?color=7289da&label=Horizon-Discord&logo=discord&style=flat-square)](https://discord.gg/fkg9pbP42V)
 
 
-<center><h1>About</center>
+<h1 align="center">About</h1>
 
-### This tool will log all your friends on discord to a single file. So you can re-add your friends on another account.
-
-<br >
+<h3 align="center">This tool will log all your friends on discord to a single file. So you can re-add your friends on another account.</h3>
+<h3 align="center">[Warning] I am not liable for any bans that may occur. IT'S ON YOU</h3>
+<br>
 
 # How to use 
 1. Download [NodeJS](https://nodejs.org/en/)
@@ -18,6 +18,7 @@
 
 Your friends discord tags will be logged to `./LOG/output.json`
 
+There will be accounts you can not frined on there since they were either blocked or banned from discord. 
 <hr>
 
 <h3>If you enjoy the tool feel free to star the so that more people can find it.</h3>
