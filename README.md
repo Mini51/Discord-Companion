@@ -1,3 +1,4 @@
+<center><h3>[NOTE] This tool is for educational purposes only.</h3></center>
 
 ![Logo](./Assets/cover.png)
 
@@ -7,7 +8,6 @@
 <h1 align="center">About</h1>
 
 <h3 align="center">This tool will log all your friends on discord to a single file. So you can re-add your friends on another account.</h3>
-<h3 align="center">[Warning] I am not liable for any bans that may occur. IT'S ON YOU</h3>
 <br>
 
 # How to use 
