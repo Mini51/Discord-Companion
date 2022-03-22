@@ -1,4 +1,5 @@
-<center><h3>[NOTE] This tool is for educational purposes only.</h3></center>
+<h3>[NOTE] This tool is for educational purposes only.</h3>
+
 
 ![Logo](./Assets/cover.png)
 
