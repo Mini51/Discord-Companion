@@ -16,7 +16,7 @@
 3. Run the command  `NPM i` 
 4. Run the command `node index.js`
 
-Your friends discord tags will be logged to `./LOG/output.json`
+Your friends discord tags will be logged to `./OUT/output.json`
 
 There will be accounts you can not frined on there since they were either blocked or banned from discord. 
 <hr>
